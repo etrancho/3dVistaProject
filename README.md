@@ -1,9 +1,9 @@
-# 3dVistaProject
-<h1 align="center">My Unity app</h1>
+<h1 align="center">IES El Rincón tour</h1>
 <p align="center">
-  <img src="https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-08-25-14-34/-1598362494711.jpg/EG11/thumbnail/732x412/format/jpg/quality/50k" width="350px"
+  <img src="https://user-images.githubusercontent.com/77303061/154721634-630956f2-1dda-4544-8dd2-3000aa4b8df2.png" width="350px"
 			 height="200px"/>
 </p>
+<!-- ![download](https://user-images.githubusercontent.com/77303061/154721634-630956f2-1dda-4544-8dd2-3000aa4b8df2.png) -->
 
 <h2>Index</h2>
 
