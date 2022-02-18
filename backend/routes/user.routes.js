@@ -9,17 +9,17 @@ module.exports = app => {
   
     // Retrieve all User
     router.get("/", 
-    //auth.isAuthenticated, 
+    auth.isAuthenticated, 
     users.findAll);
     
     // Retrieve a single User with id
     router.get("/:idU", 
-    //auth.isAuthenticated, 
+    auth.isAuthenticated, 
     users.findOne);
   
     // Update a User with id
     router.put("/:idU", 
-    //auth.isAuthenticated, 
+    auth.isAuthenticated, 
     users.update);
 
     // Sign in
@@ -30,7 +30,7 @@ module.exports = app => {
     // Delete a User with id
      router.delete("/:idU", users.delete);
   
-    // // Create a new User
+    // // Delete all users
     // router.delete("/", users.deleteAll);
   
     app.use('/users', router);

@@ -16,7 +16,7 @@ INSERT INTO classrooms VALUES
 
 create table users (
     idU int(10) not null auto_increment primary key,
-    passU varchar(20) not null,
+    passU varchar(200) not null,
     nameU varchar(30) not null,
     emailU varchar(50) not null,
     tfU int(9) not null,

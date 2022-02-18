@@ -5,7 +5,7 @@ const utils = require("../utils");
 const  bcrypt  =  require('bcryptjs');
 
 // Create and Save a new User
-exports.create = (req, res) => {
+ exports.create = (req, res) => {
   //Validate request
   if (!req.body.passU || !req.body.nameU) {
     res.status(400).send({
@@ -16,18 +16,19 @@ exports.create = (req, res) => {
 
   // Create a User
   let user = {
+    //idU: req.body.idU,
     passU: req.body.passU,
     nameU: req.body.nameU,
     emailU: req.body.emailU,
     tfU: req.body.tfU,
-    idCU: req.body.idCU,
-    
-    
+    idCU: req.body.idCU
   };
 
   User.findOne({ where: { nameU: user.nameU } })
     .then(data => {
+      console.log("llego")
       if (data) {
+        console.log("llego found")
         const result = bcrypt.compareSync(user.passU, data.passU);
         if (!result) return res.status(401).send('Password not valid!');
         const token = utils.generateToken(data);
@@ -36,12 +37,15 @@ exports.create = (req, res) => {
         // return the token along with user details
         return res.json({ user: userObj, access_token: token });
       }
-
+      console.log("arrived before bcrypt")
       user.passU = bcrypt.hashSync(req.body.passU);
+
+      console.log(user);
 
       // User not found. Save new User in the database
       User.create(user)
         .then(data => {
+          console.log("creqted")
           const token = utils.generateToken(data);
           // get basic user details
           const userObj = utils.getCleanUser(data);
@@ -49,15 +53,17 @@ exports.create = (req, res) => {
           return res.json({ user: userObj, access_token: token });
         })
         .catch(err => {
+          console.log("errrooo")
           res.status(500).send({
             message:
               err.message || "Some error occurred while creating the User."
           });
           console.log(err.message)
         });
-
     })
     .catch(err => {
+      
+      console.log("errrooo2")
       res.status(500).send({
         message:
           err.message || "Some error occurred while retrieving tutorials."

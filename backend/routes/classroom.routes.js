@@ -28,7 +28,7 @@ module.exports = app => {
     //);
   
     // // Delete a User with id
-    // router.delete("/:id", users.delete);
+     router.delete("/:idC", classrooms.delete);
   
     // // Create a new User
     // router.delete("/", users.deleteAll);
