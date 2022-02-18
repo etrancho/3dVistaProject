@@ -28,7 +28,7 @@
 
 <h2>Data model</h2>
 <h3>Describe the system</h3>
-<h3>Describe ERS and/or functions of the system</h3>
+
 <h3>Describe Data model (Entity-Relation diagram, UML and Relational Diagram)</h3>
 <h3>Describe the architecture</h3>
 <h3>User manual</h3>
@@ -45,15 +45,23 @@
 
 <h3>Entity-Relation diagram</h3>
 <p align="center">
-	<img width="600" alt="er-d" src="https://user-images.githubusercontent.com/77303061/146036037-a76bb4a2-3aa7-4796-810f-126abfefd7ed.png">
+	<img width="700" alt="er-d" src="https://user-images.githubusercontent.com/77303061/154732448-ca0db8ba-2629-408a-8629-da3b56c2f6a4.png">
+</p>
+
+<h3>UML diagram</h3>
+<p align="center">
+	<img width="400" alt="er-d" src="https://user-images.githubusercontent.com/77303061/154733285-f5d85d8f-604d-4ddf-be33-f247811f008f.png">
 </p>
 
 <h3>Relational diagram</h3>
-<p>User (<b>id</b>,name,username,isAdmin,password)</p>
-<p>Regalo (<b>idR</b>,imgR,nombreR,descripcionR)</p>
+<p>user (<b>idU</b>, nameU, passU, emailU, tfU, idCU*)</p>
+<p>classroom (<b>idC</b>, nameC, studentsC)</p>
+<p>ad (<b>idA</b>, nameA, descriptionA, idCA*)</p>
 
 
 <h2>User requirements</h2>
+
+
 <h2>Use cases</h2>
 <img width="1100" alt="uc" src="https://user-images.githubusercontent.com/77303061/146036983-85cfafdf-123e-485b-8557-769515145b88.png">
 
