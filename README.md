@@ -70,19 +70,41 @@
 
 <h2>Prototype and usability</h2>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742501-14c2e196-a1e0-404b-ac08-a89bbf2197f1.png">
-<p></p>
+<p>
+	<b>Intro</b></br>
+	This interface is the first one the users will see when they enter the application, it has a navegation bar where we can see the scenes and change the background to 		another scene, the advertisements, the location of the school, the web page of the school and some options for users(log in, log out, register and settings)
+</p>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742604-1d98066e-7efb-48ce-903e-f9c9813d8b6c.png">
-<p></p>
+<p>
+	<b>Advertisement</b></br>
+	This interface will show the advertisement you chose in the navegation bar
+</p>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742754-ee17daf1-b929-4e7f-8488-26c9bec0b8a6.png">
-<p></p>
+<p>
+	<b>Google Maps</b></br>
+	This interface will show the location in google maps of the school
+</p>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742857-b5440810-dcdb-42c8-97f2-8a29538435cc.png">
-<p></p>
+<p>
+	<b>Info</b></br>
+	This interface will show the web page of the shool
+</p>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742914-97a55cc5-7b09-4498-8f5e-fbb8ebd8ad04.png">
-<p></p>
+<p>
+	<b>Log in</b></br>
+	This interface will let you log in if you have already registered, and if there is any problem it will explain the error
+</p>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742986-677956b7-5a25-4b90-88e5-30d9ca10c28b.png">
-<p></p>
+<p>
+	<b>Register</b></br>
+	This interface will let you create an account, and if there is any problem it will explain the error
+</p>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154743060-3549c9b1-0bb7-47df-a56c-0f344955c8ff.png">
-<p></p>
+<p>
+	<b>Settings</b></br>
+	This interface shows your personal information and lets you change the username, password and delete your account, and if
+	there is any problem it will explain the error
+</p>
 
 
 <h2>Manuals</h2>
