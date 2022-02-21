@@ -27,6 +27,7 @@
 
 
 <h2>Data model</h2>
+<p>Postman link: https://documenter.getpostman.com/view/18173142/UVkjvxmx</p>
 
 * Users can be:
 	* Non-registered
@@ -59,7 +60,25 @@
 
 
 <h2>User requirements</h2>
-
+<h3>R1. It is designed for pc/laptops</h3>
+<h3>R2. There is no need to log in to see the application</h3>
+<h3>R3. The app has a navegation bar, where there is three dropdowns and two texts with links</h3>
+	<h4><b>Dropdowns</b></h4>
+	<p>1. Scenes: it will apear a list of the scenes that are in the app</p>
+	<p>2. Advertisements: it will apear a list of the ads that are in the app</p>
+	<p>3. User: it will appear some links (log in, log out, register and settings)</p>
+	<h4><b>Text with links</b></h4>
+	<p>1. Location: it will apear a window of the location in google maps of the school</p>
+	<p>2. Info: it will apear a window of the web page of the school</p>
+<h3>R4. User links</h3>
+	<h4><b>Log in</b></h4>
+	<p>If there is any problem it will explain what it is and how it can be solved</p>
+	<h4><b>Log out</b></h4>
+	<p>If the user has loged in it will apear this option</p>
+	<h4><b>Register</b></h4>
+	<p>If there is any problem it will explain what it is and how it can be solved</p>
+	<h4><b>Settings</b></h4>
+	<p>If there is any problem it will explain what it is and how it can be solved</p>
 
 <h2>Use cases</h2>
 <p align="center">
@@ -67,7 +86,12 @@
 </p>
 
 <h2>Minimun system requirements</h2>
-
+<p>The 3DVista Virtual Tour PRO program works on all devices from Windows 10 and 11 or OS X. We do recommend 16 Gb RAM and a processor i5 or i7. I suggest you download the trial version to see how it performs on your device if you have doubts (https://www.3dvista.com/en/products/virtualtour). </p>
+<p>And for Node.js:</p>
+<p>- Memory: 4 GB</p>
+<p>- Graphics Card: NVIDIA GeForce GTX 960</p>
+<p>- CPU: Intel Core 2 Duo E8400</p>
+<p>- OS: windows 7+</p>
 
 <h2>Prototype and usability</h2>
 <img width="600" alt="uc" src="https://user-images.githubusercontent.com/77303061/154742501-14c2e196-a1e0-404b-ac08-a89bbf2197f1.png">
