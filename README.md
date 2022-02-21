@@ -9,6 +9,7 @@
 * [Description](#description)
 * [Data model](#data-model)
 	* [Entity-Relation diagram](#entity-relation-diagram)
+	* [UML-diagram](#uml-diagram)
 	* [Relational diagram](#relational-diagram)
 * [User requirements](#user-requirements)
 * [Use cases](#use-cases)
