@@ -153,6 +153,13 @@
 
 <h2>Manuals</h2>
 <h3>Installation manual</h3>
+<p>First, we need to install node.js (https://nodejs.org/en/), the one recommended for most users: </p>
+<img width="500" src="https://user-images.githubusercontent.com/77303061/155373909-32ea33dc-4ca6-4324-bd97-bc3b1f21598a.png">
+<p>And 3dVista the free trial (https://www.3dvista.com/en/products/virtualtour):</p>
+<img width="800" src="https://user-images.githubusercontent.com/77303061/155373627-1e0fb64c-b072-4e7a-917b-8880d7ab417a.png">
+<p></p>
+
+
 <h3>User manual</h3>
 
 <h2>Conclusion</h2>
