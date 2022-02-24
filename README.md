@@ -9,7 +9,6 @@
 * [Description](#description)
 * [Minimun system requirements](#minimun-system-requirements)
 * [Technology used](#technology-used)
-* [Technology comparison](#technology-comparison)
 * [Prototype and usability](#prototype-and-usability)
 * [User requirements](#user-requirements)
 * [Use cases](#use-cases)
@@ -45,8 +44,6 @@
 <p>https://nodejs.org/en/ </p>
 <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
 </p>
-
-<h2>Technology comparison</h2>
 
 <h2>Prototype and usability</h2>
 <p>
@@ -156,10 +153,14 @@
 <p>First, we need to install node.js (https://nodejs.org/en/), the one recommended for most users: </p>
 <img width="500" src="https://user-images.githubusercontent.com/77303061/155373909-32ea33dc-4ca6-4324-bd97-bc3b1f21598a.png">
 <p>And 3dVista the free trial (https://www.3dvista.com/en/products/virtualtour):</p>
-<img width="800" src="https://user-images.githubusercontent.com/77303061/155373627-1e0fb64c-b072-4e7a-917b-8880d7ab417a.png">
-<p></p>
+<img width="500" src="https://user-images.githubusercontent.com/77303061/155373627-1e0fb64c-b072-4e7a-917b-8880d7ab417a.png">
+<p>In the case we do not have visual studio code, we install it(https://code.visualstudio.com/download):
+<img width="500" src="https://user-images.githubusercontent.com/77303061/155562872-d6feb76d-8241-4b55-aba3-926a0be9088d.png">
+<p>We open visual studio code and the terminal and write 'git clone https://github.com/etrancho/3dVistaProject' to clone the project:</p>
+<img width="600" src="https://user-images.githubusercontent.com/77303061/155563955-d93dbda4-b275-4191-aaed-0bb6c7266729.png">
+<b>Installations:</b>
 
-
+	
 <h3>User manual</h3>
 
 <h2>Conclusion</h2>
