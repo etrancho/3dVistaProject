@@ -158,8 +158,12 @@
 <img width="500" src="https://user-images.githubusercontent.com/77303061/155562872-d6feb76d-8241-4b55-aba3-926a0be9088d.png">
 <p>We open visual studio code and the terminal and write 'git clone https://github.com/etrancho/3dVistaProject' to clone the project:</p>
 <img width="600" src="https://user-images.githubusercontent.com/77303061/155563955-d93dbda4-b275-4191-aaed-0bb6c7266729.png">
-<b>Installations:</b>
-
+<p><b>Installations: (in the backend folder)</b></p>
+<p>- 'npm install'</p>
+<p>- 'npm install sequelize'</p>
+<p><b>To start:</b></p>
+<p>- Backend: 'cd backend' and 'node server.js'. Port: 4000</p>
+<p>- Websockets: 'cd backend/websockets' and 'node index.js'. Port: 5000</p>
 	
 <h3>User manual</h3>
 
