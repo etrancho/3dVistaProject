@@ -9,6 +9,7 @@
 * [Description](#description)
 * [Minimun system requirements](#minimun-system-requirements)
 * [Technology used](#technology-used)
+* [Technology comparison](#technology-comparison)
 * [Prototype and usability](#prototype-and-usability)
 * [User requirements](#user-requirements)
 * [Use cases](#use-cases)
@@ -44,6 +45,54 @@
 <p>https://nodejs.org/en/ </p>
 <p>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
 </p>
+
+<h2>Technology comparison</h2>
+<p><b>Native app: </b>Native apps are written in code languages specific to the particular operating system that they are developed for. First, it was Java for Android and Objective-C for iOS but, due to the fast-paced software development we faced since the last few decades, these technologies have been replaced by Kotlin (Android) and Swift (iOS).</p>
+<p><b>Pros:</b></p>
+<p>- Fast performance due to simpler code and ecosystem's support (maintenance and development stability)</p>
+<p>- Higher security (protected by many different layers of an operating system which makes them difficult to exploit)</p>
+<p>- Non-dependence on open-source libraries/third-party frameworks</p>
+<p>- Access to hardware features (quick and easy to implement)</p>
+<p><b>Cons:</b></p>
+<p>- Takes longer and is more expensive to have them simultaneously on iOs and Android</p>
+<p>- Adding new features requires separate codebases</p>
+<p>- Need a bigger team of specialists in native languages</p>
+
+<p><b>Hybrid app:</b>Hybrid app development combines elements of both native and web apps. They allow developers to code in one single language that can run in different operating systems.</p>
+<p><b>Pros:</b></p>
+<p>- Lower development costs (especially when creating for several different platforms)</p>
+<p>- Easier maintenance (based on web solutions)</p>
+<p>- Easier to add new features (due to one codebase)</p>
+<p>- Integration with Web-based services</p>
+
+<p><b>Cons:</b></p>
+<p>- Complex apps with many features will run slower</p>
+<p>- Rely on system browser security</p>
+<p>- Having just one codebase means the app run equally everywhere (could not perform specific iOS or Android features)</p>
+
+<p><b>Web apps:</b> Web application is simply an application which works over a web browser. All the applications here run on a web server instead of a local server. </p>
+<p><b>Pros:</b></p>
+<p>-It is way cheaper compared to other types of app developments</p>
+<p>- It doesn't need to be updated often</p>
+<p>- In order for running a web application, you don't need to download them separately</p>
+
+<p><b>Cons:</b></p>
+<p>- It is directly linked to a web browser</p>
+<p>- It lacks the feature of quality control system</p>
+<p>- They are rare to find since they are not available in any App Store or Play Store</p>
+<p>- An internet connection is compulsory when running a web application</p>
+
+<p><b>Progressive Web Apps:</b> Progressive web apps are relatively new to this app development scenario, having had more widespread adoption in the latest years. These are web apps that seek to appear and act exactly like the native ones.</p>
+<p><b>Pros</b></p>
+<p>- Access on different platforms and devices</p>
+<p>- These apps can be found online in the browser (no app store needed)</p>
+<p>- User interaction and navigation is identical to native apps</p>
+
+<p><b>Cons:</b></p>
+<p>- Hardware and operating system features limitations</p>
+<p>- Hardware integration problems</p>
+<p>- Not available on app stores</p>
+
 
 <h2>Prototype and usability</h2>
 <p>
