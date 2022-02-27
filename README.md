@@ -23,7 +23,7 @@
 * [Links](#links)
 
 <h2>Description</h2>
-<p>This application consists on a tour of the IES El Rincón, it is made with 360º photos taken by us. </p>
+<p>This application consists on a tour of the IES El Rincón, it is made with 360º photos taken by us, and it is a collaboration with ITC (Instituto tecnológico de Canarias). </p>
 
 <h2>Minimun system requirements</h2>
 <p>The 3DVista Virtual Tour PRO program works on all devices from Windows 10 and 11 or OS X. We do recommend 16 Gb RAM and a processor i5 or i7. I suggest you download the trial version to see how it performs on your device if you have doubts (https://www.3dvista.com/en/products/virtualtour). </p>
@@ -170,9 +170,12 @@
 <img src="https://user-images.githubusercontent.com/77303061/155895336-398db98f-740f-4c09-b1b3-d1d4598f5f1a.png" width="200">
 
 <h2>Conclusion</h2>
-
+<p>We think working with 3d Vista has been a little difficult at first because we did not know how to use it and we struggled a lot with implementing coding in it, but then we managed and learned how to do it. And with node.js it has not been that difficult because we have already used it in other projects or in class. We hope to see more 3d vista tutorials in some time, or even create some of them ourselves so people do not struggle that much with this apllication.</p>
 
 <h2>Links</h2>
+<p>https://nodejs.org/en/</p>
+<p>https://www.3dvista.com/en/products/virtualtour</p>
+<p>https://www.itccanarias.org/web/es/</p>
 
 
 [Go back to Index](#index)
