@@ -166,6 +166,8 @@
 <p>- Websockets: 'cd backend/websockets' and 'node index.js'. Port: 5000</p>
 	
 <h3>User manual</h3>
+<p>Open 3d Vista and open the project in the frontend folder. It is very easy to understand and use because you only have to follow the lines to continue seeing the others scenes. There is also icons like the one of the photo that means you can enter a classroom o enter a web page</p>
+<img src="https://user-images.githubusercontent.com/77303061/155895336-398db98f-740f-4c09-b1b3-d1d4598f5f1a.png" width="200">
 
 <h2>Conclusion</h2>
 
